@@ -17,10 +17,19 @@ Make file management explanation.
 == Build the sources ==
 To build the sources you have a *makefile* inside the *src* folder execute the *make* command to build the files. If you executed *make* command previously you may have to clean the previous build with *make clean* command.
 
-After to build the sources will be two extra folders inside the *src* folder: *obj* and *lib*. In the *lib* folder you will find the generated lib called *libzipper.a*. Thats all you need to add it as static library.
+After to build the sources will be two extra folders inside the *src* folder: *obj* and *lib*. In the *lib* folder you will find the generated lib called *libzipper.a*. Thats all you need to compile this static library that will provide the compression features.
 
 == Add sources to build ==
+To add more source to build you need to open the *makefile* inside the *src* folder and add the .cpp source like this:
 
+{{{
+# source files
+
+SRC = compressor/FileHeader.cpp \
+      zipperlib.cpp
+
+OBJ = $(patsubst %.cpp,obj/%.o,$(SRC))
+}}}
 == Use the library ==
 
 = Test =
