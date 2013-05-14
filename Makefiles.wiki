@@ -10,6 +10,8 @@ The Zipper project is split in 3 parts:
 
 Each part have its own make file to build the sources. But the application and test modules need to build the library module first they because depend of its sources.
 
+All the explained here can be performed inside a console but it is much easier to use netbeans using the make file as script configuration.
+
 = Application interface =
 Make file management explanation.
 
@@ -26,17 +28,18 @@ To add more source to build you need to open the *makefile* inside the *src* fol
 # source files
 
 SRC = compressor/FileHeader.cpp \
+#->>>>Here you have to add the new sources. Only the .cpp's<<<<-
       zipperlib.cpp
 
 OBJ = $(patsubst %.cpp,obj/%.o,$(SRC))
 }}}
-== Use the library ==
 
 = Test =
 == Build the sources ==
+To build the sources you have to build the library first. Then you have a *makefile* inside the *test* folder. Execute the *make* command to build the files. If you executed *make* command previously you may have to clean the previous build with *make clean* command.
 
 == Add sources to build ==
+Is the same that you do for the library but use the *makefile* inside the *test* folder.
 
 == Run the tests ==
-
-= Using Netbeans =
+After to build the sources, in the *test* folder there will be a file called *zippertest*. You should run this file to run all the test and see the status of each test.
