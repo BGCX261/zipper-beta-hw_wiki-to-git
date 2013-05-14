@@ -1,0 +1,33 @@
+#summary How to build the library and run the tests
+#labels Phase-Deploy,Phase-Implementation
+
+= Introduction =
+
+The Zipper project is split in 3 parts:
+  # Application interface
+  # Library
+  # Tests
+
+Each part have its own make file to build the sources. But the application and test modules need to build the library module first they because depend of its sources.
+
+= Application interface =
+Make file management explanation.
+
+= Library = 
+== Build the sources ==
+To build the sources you have a *makefile* inside the *src* folder execute the *make* command to build the files. If you executed *make* command previously you may have to clean the previous build with *make clean* command.
+
+After to build the sources will be two extra folders inside the *src* folder: *obj* and *lib*. In the *lib* folder you will find the generated lib called *libzipper.a*. Thats all you need to add it as static library.
+
+== Add sources to build ==
+
+== Use the library ==
+
+= Test =
+== Build the sources ==
+
+== Add sources to build ==
+
+== Run the tests ==
+
+= Using Netbeans =
