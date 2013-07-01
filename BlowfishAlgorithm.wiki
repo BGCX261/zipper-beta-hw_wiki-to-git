@@ -1,0 +1,8 @@
+#labels Encryption
+= Blowfish Algorithm =
+
+This is the documentation that we are using to implement the blowfish algorithm
+
+[www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=13&ved=0CEEQFjACOAo&url=http%3A%2F%2Fsamhain.softgot.com%2Fcriptografia%2Flecturasnotas%2Falgoritmos%2Fblowfish.pdf&ei=lQTSUdX2F7K70AGLkICYDA&usg=AFQjCNE5nglmBdlcu5tSzh203hNXuFck0g&sig2=ZSsZbjXfzmrYKJEdLg27vg&bvm=bv.48572450,d.dmQ]
+----
+[http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCoQFjAA&url=http%3A%2F%2Fpocketbrief.net%2Frelated%2FBlowfishEncryption.pdf&ei=ZgXSUY2MIYnC4APF2oGwCw&usg=AFQjCNFf1_si-HgWwUL48Iqo88Hdh_oTNg&sig2=ZmbJgt1zcFlDig9ACpF5ug&bvm=bv.48572450,d.dmQ]
